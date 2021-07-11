@@ -9,7 +9,7 @@
 }
 body{
     min-height:fit-content;
-    background-color: gray;
+    background-color: rgb(255, 253, 253);
 }
 .mycontainer{
     border: 2px solid black;
@@ -29,7 +29,7 @@ body{
 }
 /* Banner code here */
 .Content #searchBar{
-    background-color: rgb(241, 247, 247);
+    background-color: rgb(238, 255, 255);
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,7 +44,7 @@ body{
 .Content #searchBar form input{
     display: flex;
     background-color: transparent;
-    height: 4.4vh;
+    height: 7vh;
     border: 0;
     outline: 2px;
     border: 1px solid #6e6b6c;
@@ -62,8 +62,8 @@ body{
     color: #272727;
 }
 .Content #searchBar form button{
-    height: 4.4vh;
-    width: 12vw;
+    height: 7vh;
+    width: 7vw;
     background-color: #fc5061;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
@@ -91,7 +91,7 @@ body{
     
 }
 .innerContent{
-    background-color: lightcyan;
+    background-color: rgb(255, 255, 255);
     border: 2px solid green;
     /* width: 90%; */
     /* height: inherit; */
@@ -99,11 +99,13 @@ body{
 #content1{
     display: flex;
     flex-direction: column;
+    margin-top: 4vw;
 }
 .content1cards{
+    margin-top:4vw;
     display: flex;
     flex-direction: row;
-    flex:10%;
+    flex:0 0 3vw;
     flex-wrap: wrap;
 }
 .cards{
@@ -115,9 +117,29 @@ body{
     flex-wrap: wrap;
     padding: 1vw;
     overflow:hidden;
-    border: 2px solid blue;
+    cursor: pointer;
+    border: 1px solid rgba(255, 120, 188, 0.788);
+    /* background-color: rgb(255, 198, 220); */
+    border-bottom: 1px solid rgba(59,   59, 59, 0.568);
     border-radius: 2vw;
     word-wrap: break-word;
+    transition: all 0.3s;
+}
+.cards:hover{
+    background-color: #e9e9e9;
+    border: none;
+    transition: all 0.5s;
+    border-bottom: 1px solid rgba(59,   59, 59, 0.568);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 #aaaaaa;
+
+}
+.cards h4{
+    margin-top: 1vw;
+}
+.cards img{
+    height: 11vw;
+    border-radius: 2vw;
+    cursor: pointer;
 }
 .Mynavbar{
     position: fixed;
