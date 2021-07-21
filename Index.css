@@ -258,6 +258,21 @@ body{
     font-size: 1.1rem;
     white-space: normal;
 }
+.login_form{
+    
+}
+.Sign_up_input{
+    display: none;
+}
+.formButton, .form_option [type=button]:not(:disabled){
+    height: 100%;
+    width: 100%;
+    background: transparent;
+    border: 0;
+}
+.signUp_form{
+
+}
 .toggle{
     position: fixed;
     top:5vw;
@@ -294,6 +309,22 @@ body{
     font-size: 3vw;
     transition: ease-in 0.5s;
     background-color: #fc5061;
+}
+
+form input, input{ 
+    border: 0;
+    outline: 0;
+    height:7vh;
+    width:100%;
+    border-radius:1vw ;
+    border-bottom: 1px solid #33be9d;
+    text-align: center;
+}
+
+input[type=checkbox]{
+    height: 1vw;
+    width: 1vw;
+    display: inline;
 }
 
 .active{

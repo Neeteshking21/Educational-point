@@ -5,6 +5,8 @@ window.onload = ()=>{
     let toggle = document.querySelector('.toggle')
     let navbar = document.querySelector('.Mynavbar')
     let j=0;
+    let signUp_button = document.getElementById('signUp_button')
+
     for(let i=0; i<list.length; i++){
         
         list[i].onclick = ()=> {
@@ -21,6 +23,8 @@ window.onload = ()=>{
         
         audio.play();
     }
+   
 }
+
 // Banner code here
 
